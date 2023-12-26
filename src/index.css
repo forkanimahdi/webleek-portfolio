@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/** Just added here cuz I didnt know where else to add it */
+/* width */
+::-webkit-scrollbar {
+    width: 0.25vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0B1221;
+}
